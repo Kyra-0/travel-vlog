@@ -120,3 +120,15 @@ color: aliceblue;
     height: 7vh;
     width: 7vh;
 }
+#inline > h3 {
+    display: inline;
+}
+#at{
+    color: blue;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #main{
+        flex-direction: column;
+    }
+  }
