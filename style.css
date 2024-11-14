@@ -24,17 +24,20 @@ body{
     width: 100vw;
     padding: 5px 10px 5px 10px;
     display: flex;
+    overflow: hidden;
+    padding: 0px;
 }
 #header > h1{
 padding: 0px;
 margin: 0px 0px 0px 0px;
 font-family: heading;
+font-size: 3.7vh;
 color: aliceblue;
 }
 #header > img{
     width: 5vh;
     height: 5vh;
-    margin: 0px 20px 0px 0px;
+    margin: 1vh 1vh ;
 }
 .spacer{
     flex: 2;
@@ -70,8 +73,9 @@ color: aliceblue;
     padding: 10px;
     margin: 10px;
     border: 5px solid rgb(143, 138, 129);
-    border-radius: 5px;
-    width: fit-content;
+    border-radius: 2px;
+    width: 70%;
+    overflow: hidden;
 }
 .blog > img{
     height: 250px;
@@ -81,20 +85,38 @@ color: aliceblue;
     text-align: right;
     color: var(--grey-text)
 }
+.underline {
+    border-bottom: 3px solid aliceblue ;
+}
 .blog > h2{
     font-size: 5vh;
     margin: 0px;
     color: aliceblue;
-    border-bottom: 3px solid aliceblue ;
     text-align: center;
 }
 .text{
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 3px solid aliceblue ;
 }
 .atachment{
     font-size: 1.3vh;
     margin: 0px;
-    color: var(--grey-text)
+    color: var(--grey-text);
+    padding-bottom: 0.9vh;
+}
+.flex{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.flex > div > p{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+}
+.button{
+    margin: 1vh 1vw 0px 1vw;
+    height: 7vh;
+    width: 7vh;
 }
