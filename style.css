@@ -1,0 +1,99 @@
+@font-face {
+    font-family: tnr;
+    src: url(assets/fonts/tnr.ttf);
+}
+@font-face {
+    font-family: heading;
+    src: url(assets/fonts/heading.ttf);
+}
+:root{
+    --blue: rgb(107, 107, 216);
+    --ligh-blue :rgb(153, 153, 230);
+    --grey-text:  rgb(109, 109, 109);
+}
+body{
+    background-color: rgb(201, 201, 201);
+    padding: 0px;
+    margin: 0px;
+    font-family: tnr;
+}
+#header{
+    background-color: var(--blue);
+    margin: 0px 0px 30px 0px;
+    height: 7vh;
+    width: 100vw;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+}
+#header > h1{
+padding: 0px;
+margin: 0px 0px 0px 0px;
+font-family: heading;
+color: aliceblue;
+}
+#header > img{
+    width: 5vh;
+    height: 5vh;
+    margin: 0px 20px 0px 0px;
+}
+.spacer{
+    flex: 2;
+}
+#main{
+    display: flex;
+}
+#profile{
+    margin: 10px;
+    background-color: var(--blue);
+    width: min-content;
+    padding: 10px;
+    border: 3px solid rgb(50, 54, 255);
+}
+#profile > h3{
+    border-bottom: 3px dotted wheat;
+}
+#profile > img{
+    width: 150px;
+}
+#profile > p{
+    width: max-content;
+}
+#content{
+    padding: 15px;
+    margin: 10px;
+    flex: 2;
+    background-color: rgba(165, 42, 42, 0);
+}
+.blog{
+    background-color: var(--ligh-blue);
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(143, 138, 129);
+    border-radius: 5px;
+    width: max-content;
+}
+.blog > img{
+    height: 250px;
+}
+.date{
+    margin-top: 0px;
+    text-align: right;
+    color: var(--grey-text)
+}
+.blog > h2{
+    font-size: 5vh;
+    margin: 0px;
+    color: aliceblue;
+    border-bottom: 3px solid aliceblue ;
+    text-align: center;
+}
+.text{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid aliceblue ;
+}
+.atachment{
+    font-size: 1.3vh;
+    margin: 0px;
+    color: var(--grey-text)
+}
