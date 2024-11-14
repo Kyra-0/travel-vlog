@@ -126,7 +126,7 @@ color: aliceblue;
 #at{
     color: blue;
 }
-@media only screen and (max-width: 600px) and (max-aspect-ratio: 3/4) {
+@media only screen and (max-aspect-ratio: 3/4) {
     #main{
         flex-direction: column;
     }#profile{
@@ -135,6 +135,10 @@ color: aliceblue;
     .blog{
         margin-left: 0px;
         width: 90%;
+    }
+    .blog > img{
+        width: 70%;
+        height: auto;
     }
 
   }
