@@ -53,8 +53,9 @@ color: aliceblue;
     border: 3px solid rgb(50, 54, 255);
     height: fit-content;
 }
-#profile > h3{
+#profile > div> h3{
     border-bottom: 3px dotted wheat;
+    text-align: center;
 }
 #profile > img{
     width: 150px;
@@ -140,5 +141,10 @@ color: aliceblue;
         width: 70%;
         height: auto;
     }
-
+    #header > h1{
+        font-size: 2vh;
+        }
+    #profile > div > h3{
+        font-size: 3vh;
+    }
   }
